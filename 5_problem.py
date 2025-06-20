@@ -19,3 +19,5 @@ class Train:
 
 t = Train(12398)
 t.book("Rampur", "Delhi")
+t.getStatus()
+t.getFare("Rampur", "Delhi")
